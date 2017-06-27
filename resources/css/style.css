@@ -36,3 +36,7 @@ nav a {
 .column-left {
   width: 630px;
 }
+
+#tuna-steak, #mon-valley, #orca, #earth, #burger, #camera {
+  border: 1px solid black;
+}
