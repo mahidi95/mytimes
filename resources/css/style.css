@@ -33,10 +33,19 @@ nav a {
   color: MediumAquaMarine;
 }
 
+.main-container {
+  display: flex;
+  border: 1px solid black;
+}
+
 .column-left {
   width: 630px;
 }
 
-#tuna-steak, #mon-valley, #orca, #earth, #burger, #camera {
+#tuna-steak, #mon-valley, #orca, #earth, #burger, #camera, #fbi, #cats, #brooklyn {
   border: 1px solid black;
+}
+
+.column-middle {
+  width: 300px;
 }
