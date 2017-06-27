@@ -36,11 +36,14 @@ nav a {
 .main-container {
   display: flex;
   border: 1px solid black;
+  justify-content: space-between;
+  padding-top: 40px;
 }
 
 .column-left {
   width: 630px;
   border: 1px solid black;
+  overflow: auto;
 }
 
 #tuna-steak, #mon-valley, #orca, #earth, #burger, #camera, #fbi, #cats, #brooklyn, #cookie, #news {
@@ -55,4 +58,47 @@ nav a {
 .column-right {
   width: 240px;
   border: 1px solid black;
+}
+
+#tuna-steak {
+  background-image: url(../images/main-story.png);
+  height: 301px;
+}
+
+#earth {
+  display: flex;
+  background-image: url(../images/fall-season.png);
+  height: 301px;
+  justify-content: flex-end;
+
+}
+
+#camera {
+  background-image: url(../images/hipster-cameraman.png);
+  height: 301px;
+}
+
+#cats {
+  background-image: url(../images/cat-ceo.png);
+  height: 301px;
+}
+
+#main-story-text {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.image-text {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.story-text {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
