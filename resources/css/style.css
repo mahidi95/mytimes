@@ -40,12 +40,19 @@ nav a {
 
 .column-left {
   width: 630px;
+  border: 1px solid black;
 }
 
-#tuna-steak, #mon-valley, #orca, #earth, #burger, #camera, #fbi, #cats, #brooklyn {
+#tuna-steak, #mon-valley, #orca, #earth, #burger, #camera, #fbi, #cats, #brooklyn, #cookie, #news {
   border: 1px solid black;
 }
 
 .column-middle {
   width: 300px;
+  border: 1px solid black;
+}
+
+.column-right {
+  width: 240px;
+  border: 1px solid black;
 }
